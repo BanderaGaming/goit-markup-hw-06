@@ -778,11 +778,6 @@ label {
   border-color: var(--main-studio-color);
 }
 
-.icon-label-position:hover .form-icons,
-.icon-label-position:focus .form-icons {
-  fill: var(--main-studio-color);
-}
-
 .form-icons {
   position: absolute;
   transition-property: fill;
@@ -790,6 +785,11 @@ label {
   transition-duration: 250ms;
   top: 32px;
   left: 15px;
+}
+
+.icon-label-position:hover .form-icons,
+.icon-label-position:focus-within .form-icons {
+  fill: var(--main-studio-color);
 }
 
 .icon-label-position {
