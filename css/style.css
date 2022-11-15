@@ -430,7 +430,10 @@ label {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 70px;
+}
+
+.bottom-main-box {
+  margin-right: 70px;
 }
 
 .logo-bottom-parth {
@@ -467,6 +470,10 @@ label {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-bottom-box {
+  margin-right: 93px;
 }
 
 .follow-us-title {
@@ -797,6 +804,7 @@ label {
 }
 
 .imput-titles {
+  display: block;
   color: var(--description-main-color);
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -824,8 +832,10 @@ label {
 }
 
 .user-agreement {
-  display: block;
+  display: flex;
   margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .agree-check {
@@ -838,6 +848,7 @@ label {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   border-radius: 2px;
+  margin-right: 9px;
 }
 
 .agree-check:checked {
